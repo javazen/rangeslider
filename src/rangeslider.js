@@ -12,7 +12,7 @@
 
   var brush = d3.svg.brush()
       .x(x)
-      .extent([.3, .5])
+      .extent([0.3, 0.5])
        .on("brushstart", brushstart)
        .on("brush", brushmove)
        .on("brushend", brushend);
@@ -28,7 +28,7 @@
     .append("g")
       .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  var brushAxis = svg.append("g")
+  svg.append("g") // var brushAxis = 
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(d3.svg.axis().scale(x).orient("bottom"));

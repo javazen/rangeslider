@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "eslint": "eslint ./src/*.js; true",
     "jshint": "jshint ./src/*.js; true",
+    "jshint-test": "jshint ./test/spec/*.js; true",
     "test": "mocha"
   },
   "keywords": [],
@@ -14,5 +16,8 @@
     "chai": "^4.1.2",
     "mocha": "^6.0.0",
     "requirejs": "^2.3.6"
+  },
+  "dependencies": {
+    "eslint": "^7.5.0"
   }
 }

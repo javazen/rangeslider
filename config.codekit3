@@ -9,12 +9,29 @@
 	],
 "creatorBuild": "32001",
 "files": {
+	"/.eslintrc.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/.eslintrc.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
 		"oF": 0
 		},
 	"/css/rangeslider.css": {
