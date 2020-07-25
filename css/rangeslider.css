@@ -6,6 +6,16 @@ circle {
   -webkit-transition: fill-opacity 250ms linear;
 }
 
+h2 {
+  text-align: center;
+}
+
+#containerDiv {
+  margin: auto;
+  width: 60%;
+  padding-right: 80px;
+}
+
 .selecting circle {
   fill-opacity: .2;
 }
