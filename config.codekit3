@@ -28,6 +28,12 @@
 		"oAP": "/build/.gitignore",
 		"oF": 0
 		},
+	"/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/build",
+		"oF": 0
+		},
 	"/css/rangeslider.css": {
 		"aP": 1,
 		"bl": 0,
@@ -94,7 +100,7 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/build/src/rangeslider.js",
-		"oF": 0,
+		"oF": 1,
 		"sC": 3,
 		"tS": 0
 		},
@@ -128,7 +134,7 @@
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-glace",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 618875277.98278105
+	"lastBuiltDate": 623275217.11822295
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -564,7 +570,7 @@
 			}
 		},
 	"environmentVariablesString": "NODE_ENV:::production",
-	"esLintConfigFileHandlingType": 0,
+	"esLintConfigFileHandlingType": 2,
 	"esLintECMAVersion": 7,
 	"esLintEnvironmentsMask": 1,
 	"esLintRules": {
